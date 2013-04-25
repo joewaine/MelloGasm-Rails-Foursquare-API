@@ -1,0 +1,10 @@
+%br
+%br
+
+.landingmessage
+  <em>Mellowgasm</em> gives you crucial hints on where to find your new match, regardless of your tastes.
+.landingmessagelogin
+  / ="Log in up top." if !@auth.present?
+  =link_to("Log on in!", login_path, :remote => true, :id => 'login') if !@auth.present?
+  / =link_to("Scope it out >", home_path) if @auth.present?
+  =link_to("Scope it out >", home_path) if @auth.present?

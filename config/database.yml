@@ -1,0 +1,27 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: mellowgasm_development
+  pool: 5
+  host: localhost
+  username: josephwaine
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: mellowgasm_test
+  host: localhost
+  pool: 5
+  username: josephwaine
+  password:
+
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: mellowgasm_production
+  pool: 5
+  host: localhost
+  username: josephwaine
+  password:
